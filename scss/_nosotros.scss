@@ -1,0 +1,158 @@
+.bodyNosotros{
+    margin: 0;
+  }
+  
+  .Contenedor {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      margin-top: auto;
+      
+    }
+  
+    .tituloSomos{
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      font-size: 3rem;
+      text-align: left;
+      color: white;
+      text-shadow: 0.1em 0.1em 0.2em black;
+    }
+     .textEquipo{
+      position: absolute;
+      width: 40%;
+      font-size: 2rem;
+      top: 20%;
+      left: 50%;
+      background-color: rgba(255, 255, 255, 0.651);
+      text-align: left;
+      
+  
+      
+  
+     }
+  
+     .textEquipo p{
+       margin: 20px;
+       padding: 20px;
+     }
+    
+    
+    
+    
+    
+    /* PREsENtACION EQUIPO--------------------------------------------------*/
+    
+    .articuloFotos{
+        background-color: white;
+    }
+    
+    .titulosFotos{
+        font-family: "Quicksand", sans-serif;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+        font-size: 75px;
+       
+    }
+    
+    
+    .presentacionEquipo {
+      width: 100%;
+      background-color: rgb(218, 206, 206);
+      display: flex;
+    }
+    
+    /* PREENACION FABIAN--------------------------------------------------*/
+    
+    .fabian {
+      width: 25%;
+      padding: 20px;
+      margin: 10px;
+      background-color: white;
+    }
+    
+    .fabian h3 {
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+    }
+    .fotoFabian {
+      display: flex;
+      justify-content: center;
+    }
+    .fabian p {
+      text-align: justify;
+      padding: 20px;
+    }
+    
+    /* PRESENTACION LEONELA--------------------------------------------------*/
+    
+    .leonela{
+        width: 25%;
+        padding: 20px;
+        margin: 10px;
+        background-color: white;
+    }
+    
+    .leonela h3 {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+      }
+      .fotoLeonela {
+        display: flex;
+        justify-content: center;
+      }
+      .leonela p {
+        text-align: justify;
+        padding: 20px;
+      }
+    
+    /* PRESENTACION JUAN--------------------------------------------------*/
+    
+    
+    .juan{
+        width: 25%;
+        padding: 20px;
+        margin: 10px;
+        background-color: white;
+    }
+    
+    .juan h3 {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+      }
+      .fotoJuan {
+        display: flex;
+        justify-content: center;
+      }
+      .juan p {
+        text-align: justify;
+        padding: 20px;
+      }
+    
+    /* PRESENTACION CECILIA--------------------------------------------------*/
+    
+    .cecilia{
+        width: 25%;
+        padding: 20px;
+        margin: 10px;
+        background-color: white;
+    }
+    
+    .cecilia h3 {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+      }
+      .fotoCecilia {
+        display: flex;
+        justify-content: center;
+      }
+      .cecilia p {
+        text-align: justify;
+        padding: 20px;
+      }
