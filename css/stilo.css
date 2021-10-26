@@ -520,6 +520,10 @@ footer .container-footer-all .container-body {
       grid-template-rows: 2fr 1fr 1fr;
 }
 
+.fotoProducto {
+  margin-top: 30px;
+}
+
 .foto-portada {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -554,7 +558,7 @@ footer .container-footer-all .container-body {
           justify-content: center;
   color: white;
   font-size: 9em;
-  margin-top: 150px;
+  margin-top: 280px;
 }
 
 .contenedor2 {

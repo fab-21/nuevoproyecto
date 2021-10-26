@@ -8,7 +8,7 @@
 
 .contenedorGeneral{
     display: grid;
-    width: 100%;
+    width: 100%;    
     height: auto;
     background-color: white;
     grid-template-areas:    "foto-portada foto-portada foto-portada foto-portada"
@@ -20,6 +20,10 @@
                             
                             
 
+}
+
+.fotoProducto{
+    margin-top: 30px;
 }
 
 .foto-portada{
@@ -53,7 +57,7 @@
     justify-content: center;
     color: white;
     font-size: 9em;
-    margin-top: 150px;
+    margin-top: 280px;
     
     
   
