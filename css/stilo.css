@@ -174,7 +174,7 @@ body {
   border: 1px solid #ccc;
   margin: auto;
   padding: auto;
-  background-color: skyblue;
+  background-color: #3db9eb;
 }
 
 .formulario input, .formulario textarea {
@@ -190,6 +190,14 @@ body {
   font-size: 12px;
   display: block;
   width: 100%;
+}
+
+div {
+  margin: 20px;
+}
+
+legend {
+  margin: 20px;
 }
 
 footer {
