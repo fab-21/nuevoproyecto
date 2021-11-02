@@ -6,35 +6,64 @@
 
 body{
     background-color: white;
+    justify-content: center;
 }
 
 
-    
+.tres{
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0%;
+
+        h2{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 3rem;
+            font-style: unset;
+            color: black;
+        }
+}   
 
 
 .desarrollo h2{
     color: rgb(255, 255, 255);
     font-size: 4em;
     text-shadow:  0 6px 25px -22px black;
+    font-family: 'Open Sans', sans-serif;
 }
 
+.tituloCarrusel{
+    font-family: 'Open Sans', sans-serif;
+}
 
 .card-img{
     position: relative;
     display: flex;
-    width: 100%;
+    
 }
 
 .desarrollo{
     position: absolute;
     align-items: center;
+    
 }
 
-.row{
-    width: 100%;
-    text-align: center;
 
+
+.razones h2{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow:  0 6px 25px -22px black;
         
+}
+
+.presencia{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0,5rem;
+    color: black;
 }
 
 .section-section{

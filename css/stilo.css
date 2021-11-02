@@ -84,12 +84,37 @@ header {
 
 body {
   background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tres {
+  background-color: white;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+.tres h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  font-style: unset;
+  color: black;
 }
 
 .desarrollo h2 {
   color: white;
   font-size: 4em;
   text-shadow: 0 6px 25px -22px black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tituloCarrusel {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card-img {
@@ -97,7 +122,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
 }
 
 .desarrollo {
@@ -107,9 +131,20 @@ body {
           align-items: center;
 }
 
-.row {
+.razones h2 {
   width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 6px 25px -22px black;
+}
+
+.presencia {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0,5rem;
+  color: black;
 }
 
 .section-section {
@@ -202,7 +237,7 @@ legend {
 
 footer {
   width: 100%;
-  background-color: #101010;
+  background-color: #000;
   -webkit-box-shadow: #000;
           box-shadow: #000;
   color: white;
@@ -211,7 +246,7 @@ footer {
 footer .container-footer-all {
   width: 100%;
   max-width: 1200px;
-  margin: auto;
+  margin: 0;
   padding: 40px;
 }
 
@@ -222,6 +257,15 @@ footer .container-footer-all .container-body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.container-footer {
+  width: 100%;
+  background-color: #000000;
+  -webkit-box-shadow: #000;
+          box-shadow: #000;
+  color: white;
+  margin-left: 0;
 }
 
 .colum1 {
@@ -250,7 +294,7 @@ footer .container-footer-all .container-body {
   font-size: 22px;
 }
 
-.row {
+.row1 {
   margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
