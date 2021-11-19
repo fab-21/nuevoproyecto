@@ -5,86 +5,76 @@
 @import "footer";
 @import "nosotros";
 @import "fotoproducto";
+@import "fotografia";
 
-.cointainer_presentacionFotografia{
+.body__proyectos{
+    padding-top: 5rem;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     width: 100%;
+    justify-content: center;
+    background-color: aqua;
+}
 
-    .foto__presentacion{
+.proyectosCulminados{
+    padding-top: 1rem;
+    margin: 0,5rem;
+    width: 100%;
+    
+   
+
+        
+}
+.proyectosCulminados h2{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 3rem;
+            text-align: center;
+            justify-content: center;
+
+                
+            
+        }
+.proyectosCulminados h4{
+    
+        padding-top: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
         justify-content: center;
 
-            .foto__portadaFotografia{
-                width: 100%;
-                height: inherit;
-                position: absolute;
-                display: flex;
-                justify-content: center;
-            }
-    }
-    
-    .titulo__presentacionFotografia{
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        margin: auto;
-        width: 68em;
-        height: auto;
-        margin-top: 3em;
-        border: white solid 5px;
-        text-align: center;
-
-    }
-}
-.magico{
-    font-size: 3em;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-
-       
-}
-.palabraFotografía{
-    font-size: 8em;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
 }
 
-.container__link{
+.ejemplos__proyectos{
+    padding-top: 1rem;
+    width: 100%;
     display: flex;
-        position: relative;
-        padding: auto;
-        margin: auto;
-        width: 70em;
-        height: 400px;
-        margin-bottom: 0;
-       
-        text-align: center;
-
-       
+    text-align: center;
 }
 
-.link__producto{
-    width: 30%;
-    height: 80%;
-    background-color: white;
-    border: white solid 1px;
+.yourhome__container{
+    width: 50%;
+    border: 0.2rem inset rgb(20, 167, 52);
+
+        
 }
 
-.link__moda{
-    width: 30%;
-    height: 80%;
-    background-color: white;
-    border: white solid 1px;
+.yourhome__container h3{
+    font-size: 1.7rem;
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
-.link__arquitectura{
-    width: 30%;
-    height: 80%;
-    background-color: white;
-    border: white solid 1px;
+.yourhome__container p{
+    padding-bottom: 1.rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;        
+    
+}
+
+
+
+
+.fotografo__container{
+    width: 50%;
+    border: 0.2rem inset rgb(54, 54, 54);
 }

@@ -425,6 +425,7 @@ footer .container-footer-all .container-body {
 .textEquipo p {
   margin: 20px;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* PREsENtACION EQUIPO--------------------------------------------------*/
@@ -433,7 +434,7 @@ footer .container-footer-all .container-body {
 }
 
 .titulosFotos {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 20px;
   margin: 20px;
   text-align: center;
@@ -460,6 +461,7 @@ footer .container-footer-all .container-body {
   padding: 10px;
   margin: 10px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .fotoFabian {
@@ -474,6 +476,7 @@ footer .container-footer-all .container-body {
 .fabian p {
   text-align: justify;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* PRESENTACION LEONELA--------------------------------------------------*/
@@ -488,6 +491,7 @@ footer .container-footer-all .container-body {
   padding: 10px;
   margin: 10px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .fotoLeonela {
@@ -502,6 +506,7 @@ footer .container-footer-all .container-body {
 .leonela p {
   text-align: justify;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* PRESENTACION JUAN--------------------------------------------------*/
@@ -516,6 +521,7 @@ footer .container-footer-all .container-body {
   padding: 10px;
   margin: 10px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .fotoJuan {
@@ -530,6 +536,7 @@ footer .container-footer-all .container-body {
 .juan p {
   text-align: justify;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* PRESENTACION CECILIA--------------------------------------------------*/
@@ -544,6 +551,7 @@ footer .container-footer-all .container-body {
   padding: 10px;
   margin: 10px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .fotoCecilia {
@@ -558,6 +566,7 @@ footer .container-footer-all .container-body {
 .cecilia p {
   text-align: justify;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .contenedorGeneral {
@@ -669,15 +678,12 @@ footer .container-footer-all .container-body {
   background-color: chocolate;
 }
 
-.cointainer_presentacionFotografia {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.container_presentacionFotografia {
   width: 100%;
+  padding-top: 80px;
 }
 
-.cointainer_presentacionFotografia .foto__presentacion {
+.container_presentacionFotografia .foto__presentacion {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -692,7 +698,7 @@ footer .container-footer-all .container-body {
           justify-content: center;
 }
 
-.cointainer_presentacionFotografia .foto__presentacion .foto__portadaFotografia {
+.container_presentacionFotografia .foto__presentacion .foto__portadaFotografia {
   width: 100%;
   height: inherit;
   position: absolute;
@@ -704,7 +710,7 @@ footer .container-footer-all .container-body {
           justify-content: center;
 }
 
-.cointainer_presentacionFotografia .titulo__presentacionFotografia {
+.container_presentacionFotografia .titulo__presentacionFotografia {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -744,20 +750,83 @@ footer .container-footer-all .container-body {
   height: 400px;
   margin-bottom: 0;
   text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap;
+          flex-direction: wrap;
 }
 
 .link__producto {
   width: 30%;
   height: 80%;
-  background-color: white;
   border: white solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
 }
 
+.link__producto .linkDirecto {
+  position: relative;
+  text-align: center;
+  list-style: none;
+  margin: auto;
+  padding: auto;
+  border: black;
+  width: 80%;
+  height: auto;
+  background-color: blanchedalmond;
+}
+
+.linkDirecto a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  text-shadow: 1px 3px 1px white;
+}
+
+.link__producto img {
+  position: absolute;
+  z-index: 0;
+}
+
+/*-- aca comienza el link moda--*/
 .link__moda {
   width: 30%;
   height: 80%;
   background-color: white;
   border: white solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-right: 20PX;
+}
+
+.link__moda .linkDirectoModa {
+  position: relative;
+  text-align: center;
+  list-style: none;
+  margin: auto;
+  padding: auto;
+  border: black;
+  width: 80%;
+  height: auto;
+  background-color: blanchedalmond;
+}
+
+.linkDirectoModa a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  text-shadow: 1px 3px 1px white;
+}
+
+.link__moda img {
+  position: absolute;
+  z-index: 0;
 }
 
 .link__arquitectura {
@@ -765,4 +834,110 @@ footer .container-footer-all .container-body {
   height: 80%;
   background-color: white;
   border: white solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-right: 20PX;
+}
+
+.link__arquitectura {
+  width: 30%;
+  height: 80%;
+  background-color: white;
+  border: white solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-right: 20PX;
+}
+
+.link__arquitectura .linkDirectoArquitectura {
+  position: relative;
+  text-align: center;
+  list-style: none;
+  margin: auto;
+  padding: auto;
+  border: black;
+  width: 80%;
+  height: auto;
+  background-color: blanchedalmond;
+}
+
+.linkDirectoArquitectura a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  text-shadow: 1px 3px 1px white;
+}
+
+.link__arquitectura img {
+  position: absolute;
+  z-index: 0;
+}
+
+.body__proyectos {
+  padding-top: 5rem;
+  margin: 0;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.proyectosCulminados {
+  padding-top: 1rem;
+  margin: 0,5rem;
+  width: 100%;
+}
+
+.proyectosCulminados h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.proyectosCulminados h4 {
+  padding-top: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ejemplos__proyectos {
+  padding-top: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.yourhome__container {
+  width: 50%;
+  border: 0.2rem ridge #363636;
+}
+
+.yourhome__container h3 {
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.yourhome__container p {
+  padding-bottom: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+.fotografo__container {
+  width: 50%;
 }
