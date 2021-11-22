@@ -1,0 +1,235 @@
+.body__blog{
+    
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    
+}
+
+.bienvenidos{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: white;
+
+        
+}
+.bienvenidos h3{
+    font-size: 6rem;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin-left: 8rem;
+    padding: 5rem;
+    animation-duration: 10s;animation-name: aparecer;
+    animation-iteration-count: aparecer;
+
+}
+@keyframes aparecer{
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+
+/*-- ACA EMPIEZA LA SEGUNDA SECION DEL BLOG--*/
+
+.dando__pasos{
+    
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    
+       
+}
+
+.dando__padre{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+    
+    .foto1:hover{
+        margin: 0.625rem;
+        padding: 0.625rem;
+        width: 20%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        transform: scale(1.2,1.2);
+    }
+
+   
+    .p1{
+        margin: 0.625rem;
+        padding: 0.625rem;
+        width: 70%;
+        height: 300px;
+        background: linear-gradient(#5a76f13a, white);
+      }
+      
+      .tituloParrafo1{
+        font-size: 50px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        }
+}
+
+.parrafo1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.mayor{
+    width: 80%;
+    height:auto;
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+/*-- PARRAFO 2 DEL BLOG--*/
+
+.foto2:hover{
+    margin: 0.625rem;
+    padding: 0.625rem;
+    width: 20%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    transform: rotatex(60deg);
+  }
+  
+  
+  .p2{
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+    height: 300px;
+    background: linear-gradient( to left, #5a76f13a, white);
+  }
+  
+  .tituloParrafo2{
+    font-size: 50px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+  }
+  
+  .parrafo2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+/*-- PARRAFO 3 DEL BLOG--*/
+
+.foto3:hover{
+    margin: 0.625rem;
+    padding: 0.625rem;
+    width: 20%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    transform: rotatex(60deg);
+  }
+  
+  
+  .p3{
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+    height: 300px;
+    background: linear-gradient( to left, #5a76f13a, white);
+  }
+  
+  .tituloParrafo3{
+    font-size: 50px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+  }
+  
+  .parrafo3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+/*-- PARRAFO 4 DEL BLOG--*/
+
+.foto4:hover{
+    margin: 0.625rem;
+    padding: 0.625rem;
+    width: 20%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    transform: rotatex(60deg);
+  }
+  
+  
+  .p4{
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+    height: 300px;
+    background: linear-gradient( to left, #5a76f13a, white);
+  }
+  
+  .tituloParrafo4{
+    font-size: 50px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+  }
+  
+  .parrafo4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+menor{
+    width: 20%;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  
+  
+  .aside1{
+    margin: 10px;
+    padding: 0px;
+    width: 100%;
+    height: 1250px;
+    background-color: rgb(80, 74, 74); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  
+  .contenidoAside{
+    padding: 10px;
+    margin: 10px;
+    height: 350px;
+    width: 90%;
+    background-color: rgb(189, 157, 157);
+    border: 1px solid  rgb(17, 17, 19);
+}
+        
+ .iframe{
+     width: 100%;
+ }   
